@@ -36,11 +36,7 @@
     });
   });
 
-  afterUpdate(() => {
-    if (didMount && selected && ref) {
-      ref.focus();
-    }
-  });
+  
 </script>
 
 <li

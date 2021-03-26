@@ -119,7 +119,7 @@
     if ($hasCalendar && !calendar) {
       calendar = createCalendar({
         options: {
-          appendTo,
+          appendTo: datePickerRef,
           dateFormat,
           defaultDate: $inputValue,
           locale,
